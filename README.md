@@ -24,6 +24,11 @@ pip install "cookiecutter>=1.7.0"
 cookiecutter gh:kurt1984/dbt_better_practice
 
 ```
+the cookiecutter.project_slug will be 
+- project folder name
+- the name entity inside dbt_project.yml
+
+
 After installation, can checkout README and Makefile for its functionalities.
 
 ## tips for working with cookiecutter
