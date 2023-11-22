@@ -25,3 +25,6 @@ cookiecutter gh:kurt1984/dbt_better_practice
 
 ```
 After installation, can checkout README and Makefile for its functionalities.
+
+## tips for working with cookiecutter
+it use Jinja template to render, thus can interfere with dbt jinja, if any. Can edit cookiecutter.json file to add the pattern to _copy_without_render. 
